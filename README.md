@@ -2,7 +2,7 @@
 
 高性能 .xlsx 流式导入导出：DataAnnotations 验证、图片、模板填充。
 
-从原 QuickNet 单仓拆分出的独立项目。MIT 协议，零第三方依赖。
+MIT 协议，零第三方依赖。
 
 ## 安装
 
