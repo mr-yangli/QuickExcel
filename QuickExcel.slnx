@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/QuickExcel/QuickExcel.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/QuickExcel.Tests/QuickExcel.Tests.csproj" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/QuickExcel.Sample/QuickExcel.Sample.csproj" />
+  </Folder>
+  <Folder Name="/benchmarks/">
+    <Project Path="benchmarks/QuickExcel.Benchmarks/QuickExcel.Benchmarks.csproj" />
+  </Folder>
+</Solution>
