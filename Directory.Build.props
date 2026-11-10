@@ -16,6 +16,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <!-- NuGet 打包元数据里本仓独有的那三颗：版本号、README 挂哪一份册子、Tags 说什么。作者与许可内联在本文件上面那段。
+       版本口径五族共用一份：跟 .NET 主版本走（.NET 10 → 10.x），同批发布时对齐主版本；10.0.0 起发稳定档
+       （2026-11-09 首颗上 NuGet），不再是预发布序列。破坏性改动升次版本号，缺陷修复升修订号。
+       每重打一次包必升一颗：同版本号不同内容的两颗包，消费方全局缓存里那颗会压住新打的 —— 还原照样绿，
+       拿到的却是旧二进制（2026-10-10 在应用侧实测过这一格）。版本号改了就同步 CHANGELOG.md 那一节的标题。 -->
   <PropertyGroup>
     <Version>10.0.0</Version>
     <PackageReadmeFile>quickexcel-usage.md</PackageReadmeFile>

@@ -7,7 +7,7 @@ MIT 协议，零第三方依赖。
 ## 安装
 
 ```bash
-dotnet add package QuickExcel --prerelease
+dotnet add package QuickExcel
 ```
 
 ## 快速上手
@@ -49,6 +49,8 @@ dotnet test tests/QuickExcel.Tests/QuickExcel.Tests.csproj
 ## 文档
 
 见 [docs/quickexcel-usage.md](docs/quickexcel-usage.md)。
+
+版本改动见 [CHANGELOG.md](CHANGELOG.md)。
 
 ## License
 

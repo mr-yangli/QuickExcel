@@ -8,13 +8,13 @@
 ## 安装
 
 ```bash
-dotnet add package QuickExcel --prerelease
+dotnet add package QuickExcel
 ```
 
-或在 csproj 中写死版本号（当前为预发布系列，`dotnet add package` 不带 `--prerelease` 会报"找不到稳定版本"）：
+或在 csproj 中写死版本号（稳定档，`dotnet add package` 不带旗标即可）：
 
 ```xml
-<PackageReference Include="QuickExcel" Version="0.1.0-beta.6" />
+<PackageReference Include="QuickExcel" Version="10.0.0" />
 ```
 
 包零依赖（不牵入任何第三方库），命名空间为 `QuickExcel`，一行 `using QuickExcel;` 就够。刚推送的新版本若安装不到，先清本机 NuGet 缓存：`dotnet nuget locals http-cache --clear`。
