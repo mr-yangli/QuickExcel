@@ -1,9 +1,9 @@
 # QuickExcel 使用文档
 
-**QuickExcel** 是一个面向 .NET 10 的高性能 Excel（`.xlsx`）导入导出库：**零第三方依赖**、全程流式读写（内存占用与行数无关）、内置 DataAnnotations 数据验证、单元格图片导入导出与模板填充。本文件同时也是 NuGet 包内 README。
+**QuickExcel** 是一个面向 .NET 10 / .NET 11 的高性能 Excel（`.xlsx`）导入导出库：**零第三方依赖**、全程流式读写（内存占用与行数无关）、内置 DataAnnotations 数据验证、单元格图片导入导出与模板填充。本文件同时也是 NuGet 包内 README。
 
 > ① 只支持 `.xlsx`（OOXML），不支持老的 `.xls` 二进制格式与 CSV。
-> ② 目标框架 `net10.0`。
+> ② 目标框架 `net10.0` / `net11.0`（单包双目标，按宿主框架自动还原）。
 
 ## 安装
 
@@ -14,7 +14,7 @@ dotnet add package QuickExcel
 或在 csproj 中写死版本号（稳定档，`dotnet add package` 不带旗标即可）：
 
 ```xml
-<PackageReference Include="QuickExcel" Version="10.0.0" />
+<PackageReference Include="QuickExcel" Version="10.1.0" />
 ```
 
 包零依赖（不牵入任何第三方库），命名空间为 `QuickExcel`，一行 `using QuickExcel;` 就够。刚推送的新版本若安装不到，先清本机 NuGet 缓存：`dotnet nuget locals http-cache --clear`。

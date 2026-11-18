@@ -7,8 +7,8 @@
     <NoWarn>$(NoWarn);CS1591</NoWarn>
 
     <PackageId>QuickExcel</PackageId>
-    <Description>High-performance, zero-dependency streaming Excel (xlsx) import/export for .NET 10. Features: DataAnnotations validation, image import/export, template export/import, SAX-based low-memory read/write.</Description>
-    <PackageTags>excel;xlsx;import;export;performance;dotnet10</PackageTags>
+    <Description>High-performance, zero-dependency streaming Excel (xlsx) import/export for .NET 10 / .NET 11. Features: DataAnnotations validation, image import/export, template export/import, SAX-based low-memory read/write.</Description>
+    <PackageTags>excel;xlsx;import;export;performance;dotnet10;dotnet11</PackageTags>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
